@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Bruh Button",
+    "version": "1",
+	"permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+    "description": "Bruh Button",
+    "icons": {
+        "128": "icon128.png",
+        "32": "icon32.png",
+        "48": "icon48.png"
+    }
+}
